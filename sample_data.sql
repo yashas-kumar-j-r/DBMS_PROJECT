@@ -1,0 +1,61 @@
+USE ecommerce_db;
+
+
+
+INSERT INTO users VALUES
+('Admin User',  'admin@store.com', '$2b$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'admin'),
+('Alice Johnson','alice@example.com','$2b$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'user'),
+('Bob Smith',   'bob@example.com',  '$2b$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'user'),
+('Charlie Brown', 'charlie@example.com', '$2b$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'user'),
+('David Wilson', 'david@example.com', '$2b$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'user'),
+('Emma Davis', 'emma@example.com', '$2b$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'user'),
+('Frank Miller', 'frank@example.com', '$2b$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'user'),
+('Grace Taylor', 'grace@example.com', '$2b$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'user'),
+('Henry Anderson', 'henry@example.com', '$2b$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'user'),
+('Isabella Thomas', 'isabella@example.com', '$2b$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'user'),
+('Jack Moore', 'jack@example.com', '$2b$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'user'),
+('Karen Martin', 'karen@example.com', '$2b$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'user'),
+('Liam Jackson', 'liam@example.com', '$2b$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'user'),
+('Mia White', 'mia@example.com', '$2b$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'user'),
+('Noah Harris', 'noah@example.com', '$2b$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'user'),
+('Olivia Clark', 'olivia@example.com', '$2b$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'user'),
+('Peter Lewis', 'peter@example.com', '$2b$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'user'),
+('Quinn Walker', 'quinn@example.com', '$2b$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'user'),
+('Ryan Hall', 'ryan@example.com', '$2b$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'user'),
+('Sophia Allen', 'sophia@example.com', '$2b$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'user'),
+('Thomas Young', 'thomas@example.com', '$2b$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'user'),
+('Uma King', 'uma@example.com', '$2b$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'user'),
+('William Scott', 'william@example.com', '$2b$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'user');
+
+
+
+INSERT INTO products VALUES
+('Wireless Headphones', 'High-quality over-ear wireless headphones with noise cancellation and 30-hour battery life.', 2999.00, 49, 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400', 'Electronics'),
+('Mechanical Keyboard', 'Compact TKL mechanical keyboard with blue switches, RGB backlight, and USB-C connectivity.', 3499.00, 28, 'https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=400', 'Electronics'),
+('Running Shoes', 'Lightweight and breathable running shoes with cushioned sole, available in multiple sizes.', 1999.00, 98, 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400', 'Footwear'),
+('Stainless Steel Bottle', 'Vacuum-insulated 750ml water bottle, keeps drinks cold for 24 hours or hot for 12 hours.', 599.00, 200, 'https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=400', 'Kitchen'),
+('Desk Lamp', 'LED desk lamp with adjustable brightness, colour temperature control, and USB charging port.', 899.00, 75, 'https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=400', 'Home'),
+('Backpack', 'Durable 30L backpack with laptop compartment, padded straps, and water-resistant material.', 1499.00, 59, 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400', 'Bags'),
+('Smart Watch', 'Fitness tracker with heart rate monitor, GPS, 7-day battery life, and smartphone notifications.', 4999.00, 40, 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400', 'Electronics'),
+('Sunglasses', 'Polarised UV400 sunglasses with lightweight metal frame and scratch-resistant lenses.', 1199.00, 55, 'https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400', 'Accessories'),
+('Coffee Mug', 'Ceramic 350ml coffee mug with a comfortable grip and dishwasher-safe finish.', 299.00, 150, 'https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=400', 'Kitchen'),
+('Bluetooth Speaker', 'Portable Bluetooth speaker with deep bass, IPX7 waterproof rating, and 12-hour battery life.', 2499.00, 45, 'https://images.unsplash.com/photo-1589003077984-894e133dabab?w=400', 'Electronics'),
+('Gaming Mouse', 'Ergonomic gaming mouse with RGB lighting, adjustable DPI, and programmable buttons.', 1299.00, 80, 'https://images.unsplash.com/photo-1527814050087-3793815479db?w=400', 'Electronics'),
+('Laptop Stand', 'Aluminium laptop stand with adjustable height and foldable design.', 999.00, 70, 'https://images.unsplash.com/flagged/photo-1576697010739-6373b63f3204?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bGFwdG9wJTIwc3RhbmR8ZW58MHx8MHx8fDA%3D', 'Accessories'),
+('Yoga Mat', 'Non-slip yoga mat with extra cushioning and carrying strap.', 799.00, 120, 'https://images.unsplash.com/photo-1592432678016-e910b452f9a2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHlvZ2ElMjBtYXRzfGVufDB8fDB8fHww', 'Fitness'),
+('Electric Kettle', '1.5L stainless steel electric kettle with auto shut-off and boil-dry protection.', 1399.00, 65, 'https://images.unsplash.com/photo-1738520420652-0c47cea3922b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZWxlY3RyaWMlMjBrZXR0bGV8ZW58MHx8MHx8fDA%3D', 'Kitchen'),
+('Wireless Earbuds', 'True wireless earbuds with active noise cancellation and fast charging case.', 2799.00, 90, 'https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2lyZWxlc3MlMjBlYXJidWRzfGVufDB8fDB8fHww', 'Electronics'),
+('Office Chair', 'Ergonomic office chair with lumbar support and adjustable armrests.', 6999.00, 25, 'https://images.unsplash.com/photo-1612372606404-0ab33e7187ee?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8b2ZmaWNlJTIwY2hhaXJ8ZW58MHx8MHx8fDA%3D', 'Furniture'),
+('Notebook Set', 'Pack of 5 premium ruled notebooks with hard covers.', 499.00, 150, 'https://images.unsplash.com/photo-1531346680769-a1d79b57de5c?w=400', 'Stationery'),
+('Power Bank', '20000mAh power bank with dual USB output and fast charging support.', 1899.00, 85, 'https://images.unsplash.com/photo-1614399113305-a127bb2ca893?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cG93ZXJiYW5rfGVufDB8fDB8fHww', 'Electronics'),
+('Wall Clock', 'Modern silent wall clock with minimalist design.', 699.00, 95, 'https://images.unsplash.com/photo-1609980775647-1fb1ef376268?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdhbGwlMjBjbG9ja3xlbnwwfHwwfHx8MA%3D%3D', 'Home'),
+('Travel Duffel Bag', 'Spacious travel duffel bag with shoe compartment and adjustable strap.', 1799.00, 50, 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400', 'Bags'),
+('Protein Shaker', '700ml BPA-free protein shaker bottle with mixing ball.', 349.00, 180, 'https://images.unsplash.com/photo-1595348020949-87cdfbb44174?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHJvdGVpbiUyMHNoYWtlcnxlbnwwfHwwfHx8MA%3D%3D', 'Fitness'),
+('LED Monitor', '24-inch Full HD LED monitor with slim bezels and HDMI connectivity.', 8999.00, 20, 'https://images.unsplash.com/photo-1527443154391-507e9dc6c5cc?w=400', 'Electronics'),
+('Bean Bag', 'Comfortable XL bean bag filled with premium beans.', 2499.00, 35, 'https://plus.unsplash.com/premium_photo-1724155541101-6eb87b91f993?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YmVhbiUyMGJhZ3xlbnwwfHwwfHx8MA%3D%3D', 'Furniture'),
+('Phone Holder', 'Adjustable desktop phone holder compatible with all smartphones.', 399.00, 140, 'https://images.unsplash.com/photo-1692764449235-6c46b86ec252?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvbmUlMjBob2xkZXJ8ZW58MHx8MHx8fDA%3D', 'Accessories'),
+('Hair Dryer', 'Compact hair dryer with 3 heat settings and cool shot function.', 1599.00, 55, 'https://images.unsplash.com/photo-1522338140262-f46f5913618a?w=400', 'Personal Care'),
+('Table Fan', 'High-speed table fan with oscillation and multiple speed settings.', 1499.00, 60, 'https://images.unsplash.com/photo-1565151443833-29bf2ba5dd8d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dGFibGUlMjBmYW58ZW58MHx8MHx8fDA%3D', 'Home Appliances'),
+('Digital Alarm Clock', 'LED digital alarm clock with temperature display and snooze function.', 799.00, 100, 'https://images.unsplash.com/photo-1729818344377-20d919b90a56?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRpZ2l0YWwlMjBhbGFybSUyMGNsb2NrfGVufDB8fDB8fHww', 'Home'),
+('Basketball', 'Official size basketball with durable rubber grip for indoor and outdoor play.', 899.00, 75, 'https://images.unsplash.com/photo-1519861531473-9200262188bf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmFza2V0YmFsbHxlbnwwfHwwfHx8MA%3D%3D', 'Sports'),
+('Action Camera', '4K action camera with waterproof case, image stabilization, and Wi-Fi connectivity.', 5499.00, 30, 'https://images.unsplash.com/photo-1571190144364-1da84d9ca448?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YWN0aW9uJTIwY2FtZXJhfGVufDB8fDB8fHww', 'Electronics');
